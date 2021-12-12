@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Sign In With Apple'),
+      home: MyHomePage(title: 'Sign In'),
     );
   }
 }
