@@ -1,16 +1,4 @@
 # sign_in_apple_flutter
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter app to run on Android to implement sign_in_with_apple package. The purpose is to test the php backend server implementation. php backend server is hosted in aws where the api can be reached via a https url configured with Cloudflare. This api link is the redirect url input to the sign_in_with_apple package; that is, Apple will redirect it's web view after the user has successfully login and approve the authentication.
+After the php code has run, a redirect will be sent to the web view after which control will return back to the flutter app.
