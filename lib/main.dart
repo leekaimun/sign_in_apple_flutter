@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     kIsWeb
                         ? Uri.parse('https://${window.location.host}/')
                         : Uri.parse(
-                            'https://beblu.sgcomp-tech.com/applesignin'),
+                            'https://beblu.sgcomp-tech.com/api/applesignin'),
               ),
               // Remove these if you have no need for them
               // nonce: 'example-nonce',
